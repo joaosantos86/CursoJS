@@ -1,0 +1,62 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: tomato;
+}
+
+div.container {
+    padding: 5vw;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+main div.container h1 {
+    font-size: 36px;
+    margin-bottom: 1vw;
+    font-weight: bold;
+    
+}
+
+main div.informacoes {
+    display: flex;
+    margin-bottom: 1vw;
+}
+
+main div.informacoes h2 {
+    font-weight: bold;
+    font-size: 24p;
+}
+
+main div.informacoes ul.um {
+    padding-right: 2vw;
+}
+
+main div.informacoes ul li {
+    margin-bottom: 0.75vw;
+}
+
+main div.calculadora h2 {
+    margin-bottom: 1vw;
+}
+
+
+main div.calculadora label, input {
+    margin-bottom: 1vw;
+
+}
+
+main div.calculadora label, input {
+    width: 25vw;
+    height: 1vw;
+}
+
+main div.calculadora button {
+    width: 25.5vw;
+    height: 2vw;
+}
