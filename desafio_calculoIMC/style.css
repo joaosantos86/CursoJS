@@ -60,3 +60,18 @@ main div.calculadora button {
     width: 25.5vw;
     height: 2vw;
 }
+
+main div.calculadora input{
+    border-style: none;
+    background-color: rgb(209, 209, 209);
+    margin-top: 8px;
+    border-radius: 4px;
+    padding: 6px;
+    
+}
+
+.msg {
+    background-color: red;
+    padding: 10px 20px;
+    margin-top: 5px;
+}

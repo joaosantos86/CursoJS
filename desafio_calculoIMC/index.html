@@ -7,7 +7,9 @@
     <title>Calculadora IMC</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
-</head>
+<script src="main.js" defer></script>
+
+    </head>
 
 <body>
     <main>
@@ -43,15 +45,18 @@
             </div>
             <div class="calculadora">
                 <h2>Calcule seu IMC</h2>
+                <form id="formulario">
 
                 <label for="peso">Peso: <br>
-                    <input type="number" id="peso"> <br>
+                    <input type="text" id="peso"> <br>
                 </label>
 
                 <label for="altura">Altura: <br>
-                    <input type="number" id="peso">
+                    <input type="text" id="altura">
                 </label>
-                <p><button>Calcular</button>
+                <p><button>Calcular</button></p>
+                    </form>
+                    <div class="resultado" id="resultado"></div>
             </div>
         </div>
     </main>
